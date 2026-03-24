@@ -97,6 +97,110 @@
         </div>
       </section>
 
+      <section id="giveaways" class="section giveaways">
+        <div class="container">
+          <div class="section-head">
+            <h2>Giveaways</h2>
+            <p class="section-sub">Join our newsletter to participate. We send occasional emails with new offers and giveaway announcements.</p>
+          </div>
+
+          <div class="giveaways-grid">
+            <div class="giveaways-visual" aria-hidden="true">
+              <div class="giveaways-graphic">
+                <svg viewBox="0 0 560 220" role="img" aria-label="Giveaway illustration" focusable="false">
+                  <defs>
+                    <linearGradient id="gwGrad" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0" stop-color="#13c39c" stop-opacity=".95"/>
+                      <stop offset="1" stop-color="#7c5cff" stop-opacity=".95"/>
+                    </linearGradient>
+                    <filter id="gwGlow" x="-20%" y="-20%" width="140%" height="140%">
+                      <feGaussianBlur stdDeviation="8" result="b"/>
+                      <feMerge>
+                        <feMergeNode in="b"/>
+                        <feMergeNode in="SourceGraphic"/>
+                      </feMerge>
+                    </filter>
+                  </defs>
+                  <rect x="16" y="16" width="528" height="188" rx="22" fill="#0f1422" stroke="#243048"/>
+                  <circle cx="110" cy="110" r="64" fill="url(#gwGrad)" opacity=".25"/>
+                  <circle cx="450" cy="78" r="38" fill="url(#gwGrad)" opacity=".22"/>
+                  <circle cx="430" cy="150" r="52" fill="url(#gwGrad)" opacity=".18"/>
+
+                  <g filter="url(#gwGlow)">
+                    <path d="M210 78h140a18 18 0 0 1 18 18v68a18 18 0 0 1-18 18H210a18 18 0 0 1-18-18V96a18 18 0 0 1 18-18Z" fill="#121826" stroke="#243048"/>
+                    <path d="M192 112h176" stroke="#243048" stroke-width="2"/>
+                    <path d="M280 78v104" stroke="#243048" stroke-width="2"/>
+                    <path d="M260 76c-10-18-34-22-46-8-10 12-2 30 14 30 16 0 20-12 32-22Z" fill="url(#gwGrad)" opacity=".8"/>
+                    <path d="M300 76c10-18 34-22 46-8 10 12 2 30-14 30-16 0-20-12-32-22Z" fill="url(#gwGrad)" opacity=".8"/>
+                    <rect x="228" y="128" width="104" height="18" rx="9" fill="url(#gwGrad)" opacity=".85"/>
+                  </g>
+
+                  <g opacity=".95">
+                    <path d="M86 148l10-28 10 28 30 1-24 18 9 28-25-16-25 16 9-28-24-18 30-1Z" fill="#e7ff22" opacity=".85"/>
+                    <path d="M474 40l6-16 6 16 18 1-14 10 5 16-15-9-15 9 5-16-14-10 18-1Z" fill="#e7ff22" opacity=".75"/>
+                  </g>
+                </svg>
+              </div>
+
+              <div class="giveaways-steps" role="list" aria-label="How giveaways work">
+                <div class="step-card" role="listitem">
+                  <div class="step-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <path fill="currentColor" d="M20 8h-2.2A3 3 0 0 0 12 6a3 3 0 0 0-5.8 2H4a2 2 0 0 0-2 2v2h20v-2a2 2 0 0 0-2-2Zm-8-2a1 1 0 0 1 1 1v1h-2V7a1 1 0 0 1 1-1ZM8 8V7a1 1 0 0 1 2 0v1H8Z"/>
+                      <path fill="currentColor" d="M2 14v6a2 2 0 0 0 2 2h6v-8H2Zm12 0v8h6a2 2 0 0 0 2-2v-6h-8Z"/>
+                    </svg>
+                  </div>
+                  <div class="step-body">
+                    <h3>Subscribe</h3>
+                    <p>Enter your email to join our newsletter list.</p>
+                  </div>
+                </div>
+                <div class="step-card" role="listitem">
+                  <div class="step-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/>
+                    </svg>
+                  </div>
+                  <div class="step-body">
+                    <h3>Watch for emails</h3>
+                    <p>We’ll announce giveaway drops and how to enter.</p>
+                  </div>
+                </div>
+                <div class="step-card" role="listitem">
+                  <div class="step-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <path fill="currentColor" d="M12 2 9.2 8.1 2.5 9 7.4 13.3 6.2 20 12 16.7 17.8 20 16.6 13.3 21.5 9 14.8 8.1 12 2Z"/>
+                    </svg>
+                  </div>
+                  <div class="step-body">
+                    <h3>Win rewards</h3>
+                    <p>Prizes can include free spins, cashback boosts, or bonus codes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="giveaways-signup">
+              <div class="signup-card">
+                <h3 class="signup-title">Enter the giveaway</h3>
+                <p class="signup-sub">Newsletter signup is your entry. We keep it simple.</p>
+
+                <form class="newsletter-form" id="newsletter-form" novalidate>
+                  <label class="field">
+                    <span class="field-label">Email</span>
+                    <input class="input" id="newsletter-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required>
+                  </label>
+                  <button class="btn btn-primary" type="submit">Join newsletter</button>
+                </form>
+
+                <p class="form-hint" id="newsletter-hint">By subscribing you agree to receive occasional marketing emails. You can unsubscribe anytime.</p>
+                <div class="form-result" id="newsletter-result" role="status" aria-live="polite"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="bonuses" class="section alt">
         <div class="container">
           <div class="section-head">
